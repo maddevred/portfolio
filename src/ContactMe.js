@@ -3,29 +3,22 @@ const contactMe =
 <html>
 <body>
 
-<header></header>
+<h5>How To Contact Me</h5>
 
-<h1>To reach out, click one of the links below, 
-    or contact me via email/phone:</h1>
+<button class="phone" onClick={sayHello}></button>
 
-<img class="github" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></img>
-<br></br>
-<a class="ghstyle" href="https://github.com/marjames98" target='_blank'>view my Github profile</a>
-<br></br>
-<br></br>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSddByjk8AxjsjoSM8fBpkg4tXwVuqGkF8rUcTiqSzXUq--JVA/viewform?usp=sf_link" target='_blank'><img class="email" src="https://i.pinimg.com/originals/50/06/dc/5006dc7319d99a139727482e4d75b1f2.jpg"></img></a>
 
-<img class="linkedin" src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-circle-512.png"></img>
+<a href="https://linkedin.com/in/amari-james" target='_blank'><img class="linkedin2" src="https://www.seekpng.com/png/detail/154-1546943_jpg-transparent-stock-linkedin-logo-svg-png-icon.png"></img></a>
+
+<a href="https://github.com/maddevred" target='_blank'><img class="github2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN45fCWx4YB2zIhhI3yG4nEoiANNEMuVAUHSJuBBanNg&usqp=CAU&ec=48600112"></img></a>
+
 <br></br>
-<a class="listyle" href="https://linkedin.com/in/amari-james" target='_blank'>view my Linkedin profile</a>
 <br></br>
 <br></br>
 
-<img class="email" src="https://images.indianexpress.com/2020/10/Gmail-new-logo.jpg"></img>
-<p>marbusiness98@gmail.com</p>
-<br></br>
-
-<img class="phone" src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/phone-512.png"></img>
-<p>(404)-734-6370</p> 
+<h6>**DEV NOTE: A mobile responsive construction of this application is currently being developed. 
+  Please check back for updates, fixes, and new features! :)))**</h6>
 
 <script>
 document.getElementById("demo").innerHTML = 5 + 6;
@@ -33,6 +26,10 @@ document.getElementById("demo").innerHTML = 5 + 6;
 
 </body>
 </html>
+
+function sayHello() {
+    alert('Mobile: 470-818-7951');
+  }
 
 export default contactMe;
 

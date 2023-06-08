@@ -6,13 +6,13 @@
   --off-white: #fafafa;
 }
 .nav {
-  background-color: grey;
-  position: sticky;
+  background-color: gray;
   top: 0px;
   width: 100%;
   height: 80px;
   z-index: 1000;
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+  position: sticky; 
 }
 
 .nav-logo {
@@ -47,13 +47,17 @@
 
 .section {
   min-height: 100vh;
-}
-
-.section-dark {
-  background: rgb(255, 56, 56);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://images.hdqwalls.com/wallpapers/i-love-coding-xl.jpg);
   color: white;
 }
 
+.section-dark {
+  background: whitesmoke;
+  color: black;
+  background-repeat: no-repeat;
+}
 
 .section-content {
   height: 100%;
@@ -77,156 +81,92 @@ a {
 
 h1 {
   font-size: 30px;
+  position: relative;
+  left: -220px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 20px;
+  position: relative;
+  left: 50px;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 20px;
+  position: relative;
+  left: 50px;
+}
+
+h4 {
+  font-size: 50px;
+  position: relative;
+}
+
+h5 {
+  font-size: 40px;
+  position: relative;
+}
+
+h6 {
+  font-size: 20px;
+  position: relative;
 }
 
 p {
   font-size: 20px;
+  position: relative;
 }
 
-.mongo {
-  height: 100px;
-  width: 100px;
-  padding: 1em;
+.github {
+  height: 50px;
+  width: 50px;
+  float: right;
+  position: relative;
+  margin: 5px 5px 5px 5px;
+
 }
 
-.sql {
-  height: 100px;
-  width: 100px;
-  padding: 1em;
+.github2 {
+  height: 200px;
+  width: 200px;
+  float: center;
+  position: relative;
+  margin: 5px 5px 5px 5px;
 }
-
-.node {
-  height: 100px;
-  width: 100px;
-  padding: 1em;
+  
+  .linkedin {
+  height: 50px;
+  width: 50px;
+  float: right;
+  position: relative;
+  margin: 5px 5px 5px 5px;
 }
-
-.javascript {
-  height: 100px;
-  width: 100px;
-  padding: 1em;
-}
-
-.react {
-  height: 100px;
-  width: 100px;
-  padding: 1em;
-}
-
-.linux {
-  height: 100px;
-  width: 100px;
-  padding: 1em;
-}
-
-.express {
-  height: 100px;
-  width: 100px;
-  padding: 1em;
-}
-
-.python {
-  height: 100px;
-  width: 100px;
-  padding: 1em;
-}
-
-.django {
-  height: 100px;
-  width: 100px;
-  padding: 1em;
-}
-
-.bootstrap{
-  height: 100px;
-  width: 100px;
-  padding: 1em;
-}
-
-.html-css {
-  height: 100px;
-  width: 100px;
-  padding: 1em;
-}
-
-.sequelize {
-  height: 100px;
-  width: 100px;
-  padding: 1em;
-}
-
-.mongoose {
-  height: 100px;
-  width: 100px;
-  padding: 1em;
-}
-
-.php {
-  height: 100px;
-  width: 100px;
-  padding: 1em;
-}
-
-.jade {
-  height: 100px;
-  width: 100px;
-  padding: 1em;
-}
-
-.hzhq {
-  height: 100px;
-  width: 100px;
-  padding: 1em;
-}
-
-.jayfacts {
-  height: 100px;
-  width: 100px;
-  padding: 1em;
-}
-
-.irezumi {
-  height: 100px;
-  width: 100px;
-  padding: 1em;
-}
-
-.microsoft{
-  height: 100px;
-  width: 100px;
-  padding: 1em;
-}
-
-.github{
-  height: 100px;
-  width: 100px;
-  padding: 1em;
-}
-
-.linkedin{
-  height: 100px;
-  width: 100px;
-  padding: 1em;
+  
+  .linkedin2 {
+  height: 200px;
+  width: 200px;
+  float: center;
+  position: relative;
+  margin: 5px 5px 5px 5px;
 }
 
 .email{
-  height: 100px;
-  width: 100px;
-  padding: 1em;
+  height: 200px;
+  width: 200px;
+  float: center;
+  position: relative;
+  margin: 5px 5px 5px 5px;
 }
 
-.phone{
-  height: 100px;
-  width: 100px;
-  padding: 1em;
+.phone {
+  background-image: url(https://i.pinimg.com/736x/d2/37/cf/d237cf84a53b50c6fec871c7fc88787b.jpg);
+  height: 200px;
+  width: 200px;
+  float: center;
+  position: relative;
+  margin: 5px 5px 5px 5px;
+  border-radius: 100%;
+  background-size: contain;
 }
 
 .ghstyle {
@@ -251,10 +191,21 @@ p {
   border-radius: 10%;
 }
 
+.construction {
+  height: 150px;
+  width: 150px;
+}
+
+.resume {
+  height: 50px;
+  width: 50px;
+  float: right;
+  margin: 5px 5px 5px 5px;
+}
 
 /* create "blazing" effect */
 
-@import url(https://fonts.googleapis.com/css?family=Akronim);
+/* @import url(https://fonts.googleapis.com/css?family=Akronim);
 
 .fire {
   margin: 50px auto;
@@ -282,74 +233,55 @@ p {
   display: inline;
   margin: 0;
 
-    color: black;
-    font-size: 75px;
+  color: black;
+  font-size: 30px;
+  position: relative;
+  left: -170px;
   line-height: 50px;
   min-width: 50px;
   outline: none;
-  vertical-align: middle;
     
   text-shadow:
-        0 3px 20px darkred,
-        0 0 20px darkred,
-    0 0 10px red,
+        0 3px 20px darkblue,
+        0 0 20px darkblue,
+    0 0 10px blue,
     4px -5px 6px gray,
     -4px -10px 10px gray,
     0 -10px 30px gray;
   animation: 2s Blazing infinite alternate linear;
 }
 
-/* h4 {
-  display: inline;
-  margin: 0;
-
-    color: black;
-    font-size: 25px;
-  line-height: 50px;
-  min-width: 50px;
-  outline: none;
-  vertical-align: middle;
-    
-  text-shadow:
-        0 3px 20px darkred,
-        0 0 20px darkred,
-    0 0 10px red,
-    4px -5px 6px gray,
-    -4px -10px 10px gray,
-    0 -10px 30px gray;
-  animation: 2s Blazing infinite alternate linear;
-} */
-
-
 @keyframes Blazing {
   0%   { text-shadow: 0 3px 20px gray, 0 0 20px gray,
-    0 0 10px red,
+    0 0 10px blue,
     0 0 0 gray,
     0 0 5px gray,
     -2px -5px 5px gray,
     4px -10px 10px gray; }
   25%   { text-shadow: 0 3px 20px gray, 0 0 30px gray,
-    0 0 20px red,
+    0 0 20px blue,
     0 0 5px gray,
     -2px -5px 5px gray,
     3px -10px 10px gray,
     -4px -15px 20px gray; }
-  50%   { text-shadow: 0 3px 20px red, 0 0 20px red,
-    0 -5px 10px red,
+  50%   { text-shadow: 0 3px 20px blue, 0 0 20px blue,
+    0 -5px 10px blue,
     -2px -5px 5px gray,
     3px -10px 10px gray,
     -4px -15px 20px gray,
     2px -20px 30px gray(255,255,0,0.5); }
-  75%   { text-shadow: 0 3px 20px red, 0 0 20px red,
-    0 -5px 10px red,
+  75%   { text-shadow: 0 3px 20px blue, 0 0 20px blue,
+    0 -5px 10px blue,
     3px -5px 5px gray,
     -4px -10px 10px gray,
     2px -20px 30px gray(255,255,0,0.5),
     0px -25px 40px rgba(255,255,0,0)}
-  100%   { text-shadow: 0 3px 20px red, 0 0 20px red,
-    0 0 10px red,
+  100%   { text-shadow: 0 3px 20px blue, 0 0 20px blue,
+    0 0 10px blue,
     0 0 0 gray,
     0 0 5px gray,
     -2px -5px 5px gray,
     4px -10px 10px gray; }
 }
+
+ */

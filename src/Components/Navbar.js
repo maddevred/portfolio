@@ -11,7 +11,7 @@ export default class Navbar extends Component {
       <nav className="nav" id="navbar">
         <div className="nav-content">
           <img
-            src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAeHj-Vg0zO_78nEf5H1pqeVJlQrshOWAbAA&usqp=CAU"}
+            src={"https://images.hdqwalls.com/wallpapers/thumb/code-syntax-dark-minimal-4k-mr.jpg"}
             className="nav-logo"
             alt="Logo"
             onClick={this.scrollToTop}
@@ -26,7 +26,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Expertise
+                Profile
               </Link>
             </li>
             <li className="nav-item">
@@ -38,7 +38,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Projects
+                Application
               </Link>
             </li>
             <li className="nav-item">
@@ -50,7 +50,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Contact Me
+                Get in Touch
               </Link>
             </li>
           </ul>
